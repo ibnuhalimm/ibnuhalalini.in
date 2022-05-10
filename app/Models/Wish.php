@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class Wish extends Model
 {
     use HasFactory;
+
+
+    public function scopeAccepted($query)
+    {
+        return $query->where('is_accept', 1);
+    }
 }
