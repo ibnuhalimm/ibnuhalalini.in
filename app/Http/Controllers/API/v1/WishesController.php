@@ -16,6 +16,7 @@ class WishesController extends Controller
         $wish = new Wish();
         $wish->from = $request->from;
         $wish->wish = $request->wish;
+        $wish->is_accept = 1;
         $wish->save();
 
         return response()->json([

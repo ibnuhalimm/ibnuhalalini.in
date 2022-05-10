@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arima Madurai', cursive;
+    scroll-behavior: smooth;
+    @apply text-raisin-black;
+}
+
+body.modal-open {
+    @apply h-screen !important;
+    @apply overflow-y-hidden !important;
+}
+
+@screen xl {
+    body.modal-open {
+        @apply pr-4 !important;
+    }
+}
+
+[x-cloak] {
+    display: none;
+}
+
+.modal-hide {
+    @apply opacity-0;
+    @apply pointer-events-none;
+}
+
+.text-title {
+    font-family: 'Great Vibes', cursive;
+}
+
+.text-art {
+    font-family: 'Dancing Script', cursive;
+}
+
+.text-sign {
+    font-family: 'Dawning of a New Day', cursive;
+}
+
+.absolute-center {
+    @apply absolute;
+    @apply top-1/2 left-1/2;
+    transform: translate(-50%, -50%);
+}
+
+.quote-mark-start {
+    @apply absolute -top-3 leading-none;
+    @apply right-full;
+    @apply text-6xl text-gray-300;
+}
+
+.quote-mark-end {
+    @apply absolute bottom-0 leading-none;
+    @apply left-full;
+    @apply text-6xl text-gray-300;
+}
+
+.slide-wrapper {
+    @apply w-full;
+    @apply h-full;
+}
