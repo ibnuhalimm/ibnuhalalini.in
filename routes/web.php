@@ -11,4 +11,6 @@ Route::group(['prefix' => 'admin'], function () {
 
     Route::post('guests', [GuestController::class, 'store'])->name('voyager.guests.store');
     Route::put('guests/{id}', [GuestController::class, 'update'])->name('voyager.guests.update');
+
+    Route::get('guests/send-whatsapp/{id}', [GuestController::class, 'sendWhatsapp'])->name('voyager.guests.send-whatsapp');
 });
