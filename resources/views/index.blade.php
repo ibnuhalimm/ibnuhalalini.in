@@ -32,7 +32,8 @@
     </script>
 
 </head>
-<body class="text-sm lg:text-base pb-32 modal-open">
+{{-- <body class="text-sm lg:text-base pb-32 modal-open"> --}}
+<body class="text-sm lg:text-base pb-32">
 
     <nav class="fixed top-auto right-4 bottom-4 left-auto z-40 sm:right-24 md:right-16">
         <div class="flex flex-row items-center justify-end gap-x-4">
@@ -167,6 +168,9 @@
 
 
     <section class="relative w-full py-20 bg-water">
+        <div class="absolute w-40 -top-[9.80rem] right-0 left-auto bottom-auto opacity-50 lg:w-52 lg:-top-[12.75rem]">
+            <img src="./img/twin-flower.png" alt="Twin Flower" class="rotate-180">
+        </div>
         <div class="w-11/12 mx-auto relative">
             <div class="flex flex-col items-center justify-center text-center">
                 <h2 class="text-title text-4xl text-deep-koamaru">
@@ -271,6 +275,9 @@
 
 
     <section class="relative w-full py-20 bg-white">
+        <div class="absolute w-40 -top-[9.80rem] right-auto left-0 bottom-auto opacity-50 lg:w-60">
+            <img src="./img/center-flower.png" alt="Center Flower" class="-rotate-12">
+        </div>
         <div class="w-11/12 mx-auto relative">
             <div class="flex flex-col items-center justify-center text-center">
                 <h2 class="text-title text-4xl text-deep-koamaru">
@@ -368,6 +375,9 @@
 
 
     <section class="relative w-full py-20 bg-water">
+        <div class="absolute w-40 -top-[9.80rem] right-0 left-auto bottom-auto opacity-50 lg:w-52 lg:-top-[12.75rem]">
+            <img src="./img/twin-flower.png" alt="Twin Flower" class="rotate-180">
+        </div>
         <div class="w-11/12 mx-auto relative">
             <div class="flex flex-col items-center justify-center text-center">
                 <h2 class="text-title text-4xl text-deep-koamaru">
@@ -420,6 +430,9 @@
 
 
     <section class="relative w-full py-20 bg-white">
+        <div class="absolute w-40 -top-[9.80rem] right-auto left-0 bottom-auto opacity-50 lg:w-60">
+            <img src="./img/center-flower.png" alt="Center Flower" class="-rotate-12">
+        </div>
         <div class="w-11/12 mx-auto relative">
             <div class="flex flex-col items-center justify-center text-center">
                 <h2 class="text-title text-4xl text-deep-koamaru">
@@ -458,7 +471,10 @@
     </section>
 
 
-    <section class="w-full py-20 bg-water">
+    <section class="relative w-full py-20 bg-water">
+        <div class="absolute w-40 -top-[9.80rem] right-0 left-auto bottom-auto opacity-50 lg:w-52 lg:-top-[12.75rem]">
+            <img src="./img/twin-flower.png" alt="Twin Flower" class="rotate-180">
+        </div>
         <div class="w-72 mx-auto md:w-2/3 md:max-w-xl">
             <div class="text-center">
                 <p class="text-art text-lg">
@@ -489,7 +505,7 @@
     <!-- Music -->
     <iframe id="player" width="560" height="315" src="https://www.youtube.com/embed/mM60wmv26yc?loop=1&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none;"></iframe>
 
-    <div class="w-full h-screen fixed overflow-y-auto bg-white inset-0 z-50 transition duration-300" id="__coverInvitation">
+    {{-- <div class="w-full h-screen fixed overflow-y-auto bg-white inset-0 z-50 transition duration-300" id="__coverInvitation">
         <div class="py-20 xl:py-10">
             <div class="w-80 mx-auto text-center">
                 <h1 class="text-title text-4xl">
@@ -531,7 +547,7 @@
                 </button>
             </div>
         </div>
-    </div>
+    </div> --}}
 
 
     <div class="w-full fixed bg-black bg-opacity-70 inset-0 z-50 transition duration-300 modal-hide" id="__modalDompetDigital">
