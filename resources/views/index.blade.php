@@ -547,7 +547,7 @@
                 </h3>
             </div>
             <div class="animate__animated animate__fadeInUp mt-20 w-80 mx-auto text-center xl:mt-10">
-                <button type="button" class="w-64 px-2 py-2 h-10 text-center inline-flex items-center justify-center bg-aero rounded-lg shadow-lg" onClick="openInvitation(this)">
+                <button type="button" id="__btnBukaUndangan" class="w-64 px-2 py-2 h-10 text-center inline-flex items-center justify-center bg-aero rounded-lg shadow-lg disabled:bg-opacity-50 disabled:cursor-not-allowed" onClick="openInvitation(this)" disabled>
                     Buka Undangan
                     <span class="ml-2">
                         <i class="bi bi-chevron-double-right text-xs"></i>

@@ -1,5 +1,9 @@
 AOS.init();
 
+$(document).ready(function() {
+    $('#__btnBukaUndangan').attr('disabled', false);
+});
+
 const scrollToTop = () => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
