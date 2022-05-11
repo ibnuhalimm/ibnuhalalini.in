@@ -1,3 +1,5 @@
+AOS.init();
+
 const scrollToTop = () => {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
