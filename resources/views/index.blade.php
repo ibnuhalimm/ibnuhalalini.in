@@ -4,9 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iin & Ibnu's Wedding</title>
+    <title>Pernikahan Iin & Ibnu</title>
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="robots" content="index, follow">
+    <meta name="title" content="Undangan Pernikahan Iin & Ibnu">
+    <meta name="description" content="Persahabatan, cinta, dan kasih sayang menjadi satu. Tak ku sangka, kau kini jadi teman hidupku.">
+    <meta property="og:url" content="{{ route('homepage', [ 'invitation' => $guest->code ]) }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Undangan Pernikahan Iin & Ibnu" />
+    <meta property="og:description" content="Persahabatan, cinta, dan kasih sayang menjadi satu. Tak ku sangka, kau kini jadi teman hidupku." />
+    <meta property="og:image" content="{{ asset('img/sliders/slider-01.jpeg') }}" />
+    <meta name="twitter:creator" content="@IbnuHMustofa" />
+    <meta name="twitter:title" content="Undangan Pernikahan Iin & Ibnu" />
+    <meta name="twitter:description" content="Persahabatan, cinta, dan kasih sayang menjadi satu. Tak ku sangka, kau kini jadi teman hidupku." />
+    <meta name="twitter:image" content="{{ asset('img/sliders/slider-01.jpeg') }}" />
+
+    <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
