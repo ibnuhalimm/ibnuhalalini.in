@@ -10,5 +10,5 @@ $(document).ready(function() {
         touchMove: false,
         pauseOnFocus: false,
         pauseOnHover: false
-    })
+    });
 });
