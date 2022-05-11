@@ -32,8 +32,7 @@
     </script>
 
 </head>
-{{-- <body class="text-sm lg:text-base pb-32 modal-open"> --}}
-<body class="text-sm lg:text-base pb-32">
+<body class="text-sm lg:text-base pb-32 modal-open">
 
     <nav class="fixed top-auto right-4 bottom-4 left-auto z-40 sm:right-24 md:right-16">
         <div class="flex flex-row items-center justify-end gap-x-4">
@@ -505,7 +504,7 @@
     <!-- Music -->
     <iframe id="player" width="560" height="315" src="https://www.youtube.com/embed/mM60wmv26yc?loop=1&enablejsapi=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none;"></iframe>
 
-    {{-- <div class="w-full h-screen fixed overflow-y-auto bg-white inset-0 z-50 transition duration-300" id="__coverInvitation">
+    <div class="w-full h-screen fixed overflow-y-auto bg-white inset-0 z-50 transition duration-300" id="__coverInvitation">
         <div class="py-20 xl:py-10">
             <div class="w-80 mx-auto text-center">
                 <h1 class="text-title text-4xl">
@@ -547,7 +546,7 @@
                 </button>
             </div>
         </div>
-    </div> --}}
+    </div>
 
 
     <div class="w-full fixed bg-black bg-opacity-70 inset-0 z-50 transition duration-300 modal-hide" id="__modalDompetDigital">
