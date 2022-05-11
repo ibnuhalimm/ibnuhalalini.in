@@ -13,11 +13,11 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Undangan Pernikahan Iin & Ibnu" />
     <meta property="og:description" content="Persahabatan, cinta, dan kasih sayang menjadi satu. Tak ku sangka, kau kini jadi teman hidupku." />
-    <meta property="og:image" content="{{ asset('img/sliders/slider-01.jpeg') }}" />
+    <meta property="og:image" content="{{ asset('img/sliders/slider-03.jpeg?_=' . rand()) }}" />
     <meta name="twitter:creator" content="@IbnuHMustofa" />
     <meta name="twitter:title" content="Undangan Pernikahan Iin & Ibnu" />
     <meta name="twitter:description" content="Persahabatan, cinta, dan kasih sayang menjadi satu. Tak ku sangka, kau kini jadi teman hidupku." />
-    <meta name="twitter:image" content="{{ asset('img/sliders/slider-01.jpeg') }}" />
+    <meta name="twitter:image" content="{{ asset('img/sliders/slider-03.jpeg?_=' . rand()) }}" />
 
     <link rel="shortcut icon" href="{{ asset('favicon.ico') }}" type="image/x-icon">
 
