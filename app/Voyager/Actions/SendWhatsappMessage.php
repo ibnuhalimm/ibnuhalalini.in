@@ -38,8 +38,8 @@ class SendWhatsappMessage extends AbstractAction
     }
 
 
-    // public function shouldActionDisplayOnDataType()
-    // {
-    //     return $this->dataType->slug == 'guests';
-    // }
+    public function shouldActionDisplayOnDataType()
+    {
+        return $this->dataType->slug == 'guests';
+    }
 }
