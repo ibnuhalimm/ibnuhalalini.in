@@ -62,10 +62,10 @@
 
     <section class="relative w-full h-[95vh] md:h-screen" id="section-kisah">
         <div class="slide-wrapper">
-            <div class="w-full h-[95vh] bg-no-repeat bg-top bg-cover md:h-screen xl:bg-center" style="background-image: url('{{ asset('img/sliders/slider-01.jpeg') }}');"></div>
-            <div class="w-full h-[95vh] bg-no-repeat bg-top bg-cover md:h-screen xl:bg-center" style="background-image: url('{{ asset('img/sliders/slider-02.jpeg') }}');"></div>
-            <div class="w-full h-[95vh] bg-no-repeat bg-top bg-cover md:h-screen xl:bg-center" style="background-image: url('{{ asset('img/sliders/slider-03.jpeg') }}');"></div>
-            <div class="w-full h-[95vh] bg-no-repeat bg-top bg-cover md:h-screen xl:bg-center" style="background-image: url('{{ asset('img/sliders/slider-04.jpeg') }}');"></div>
+            <div class="w-full h-[95vh] bg-no-repeat bg-top bg-cover md:h-screen xl:bg-center" style="background-image: url('{{ asset('img/sliders/slider-01.jpeg?_=' . rand()) }}');"></div>
+            <div class="w-full h-[95vh] bg-no-repeat bg-top bg-cover md:h-screen xl:bg-center" style="background-image: url('{{ asset('img/sliders/slider-02.jpeg?_=' . rand()) }}');"></div>
+            <div class="w-full h-[95vh] bg-no-repeat bg-top bg-cover md:h-screen xl:bg-center" style="background-image: url('{{ asset('img/sliders/slider-03.jpeg?_=' . rand()) }}');"></div>
+            <div class="w-full h-[95vh] bg-no-repeat bg-top bg-cover md:h-screen xl:bg-center" style="background-image: url('{{ asset('img/sliders/slider-04.jpeg?_=' . rand()) }}');"></div>
         </div>
         <!--  -->
         <div class="absolute inset-0 w-full h-full bg-camel opacity-30"></div>
