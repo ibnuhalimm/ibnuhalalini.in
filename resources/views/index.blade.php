@@ -511,7 +511,7 @@
                     </span>
                 </h3>
             </div>
-            <div class="mt-20 w-80 mx-auto text-center">
+            <div class="mt-20 w-80 mx-auto text-center xl:mt-10">
                 <button type="button" class="w-64 px-2 py-2 h-10 text-center inline-flex items-center justify-center bg-aero rounded-lg shadow-lg" onClick="openInvitation(this)">
                     Buka Undangan
                     <span class="ml-2">
@@ -525,7 +525,7 @@
 
     <div class="w-full fixed bg-black bg-opacity-70 inset-0 z-50 transition duration-300 modal-hide" id="__modalDompetDigital">
         <div class="modal-overflow w-full h-screen overflow-y-auto">
-            <div class="bg-white w-11/12 sm:w-1/2 md:w-11/12 lg:w-3/4 lg:max-w-4xl mx-auto rounded-lg text-left my-10">
+            <div class="bg-white w-11/12 sm:w-1/2 md:w-11/12 lg:w-3/4 lg:max-w-3xl mx-auto rounded-lg text-left my-10">
                 <div class="flex justify-between items-center px-6 py-5">
                     <span class="text-xl font-bold">
                         Dompet Digital
@@ -537,10 +537,10 @@
                     </button>
                 </div>
                 <div class="px-6 pb-8">
-                    <div class="flex flex-col justify-between gap-10">
+                    <div class="grid grid-cols-1 gap-10 sm:grid-cols-3">
                         <div>
-                            <div class="w-32 mx-auto">
-                                <img src="{{ asset('img/payments/bca.png') }}" alt="Bank BCA">
+                            <div class="w-full flex flex-row items-center justify-center">
+                                <img src="{{ asset('img/payments/bca.png') }}" alt="Bank BCA" class="w-32 h-auto">
                             </div>
                             <div class="mt-3 text-center">
                                 <p>
@@ -552,8 +552,8 @@
                             </div>
                         </div>
                         <div>
-                            <div class="w-32 mx-auto">
-                                <img src="{{ asset('img/payments/bni.png') }}" alt="Bank BCA">
+                            <div class="w-full flex flex-row items-center justify-center">
+                                <img src="{{ asset('img/payments/bni.png') }}" alt="Bank BCA" class="w-32 h-auto">
                             </div>
                             <div class="mt-3 text-center">
                                 <p>
@@ -565,10 +565,10 @@
                             </div>
                         </div>
                         <div>
-                            <div class="w-32 mx-auto">
-                                <img src="{{ asset('img/payments/gopay.png') }}" alt="Gopay">
+                            <div class="w-full flex flex-row items-center justify-center">
+                                <img src="{{ asset('img/payments/gopay.png') }}" alt="Gopay" class="w-32 h-auto">
                             </div>
-                            <div class="mt-3 text-center">
+                            <div class="mt-3 text-center sm:mt-5">
                                 <p>
                                     a.n. Ibnu Halim Mustofa
                                 </p>
@@ -586,7 +586,7 @@
 
     <div class="w-full fixed bg-black bg-opacity-70 inset-0 z-50 transition duration-300 modal-hide" id="__modalPengirimanKado">
         <div class="modal-overflow w-full h-screen overflow-y-auto">
-            <div class="bg-white w-11/12 sm:w-1/2 md:w-11/12 lg:w-3/4 lg:max-w-4xl mx-auto rounded-lg text-left my-10">
+            <div class="bg-white w-11/12 mx-auto rounded-lg text-left my-10 sm:max-w-sm">
                 <div class="flex justify-between items-center px-6 py-5">
                     <span class="text-xl font-bold">
                         Pengiriman Kado
