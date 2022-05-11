@@ -44,3 +44,12 @@ $('#__btnModalDompetDigital').click(function() {
 $('#__btnCloseModalDompetDigital').click(function() {
     $('#__modalDompetDigital').modalize('hide');
 });
+
+
+$('#__btnModalPengirimanKado').click(function() {
+    $('#__modalPengirimanKado').modalize('show');
+});
+
+$('#__btnCloseModalPengirimanKado').click(function() {
+    $('#__modalPengirimanKado').modalize('hide');
+});

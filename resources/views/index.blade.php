@@ -426,15 +426,15 @@
             <div class="w-11/12 mx-auto text-center">
                 <div class="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-center">
                     <div>
-                        <button type="button" class="w-64 py-2 h-10 text-center inline-flex items-center justify-center bg-aero rounded-lg shadow-lg" id="__btnModalDompetDigital">
+                        <button type="button" id="__btnModalDompetDigital" class="w-64 py-2 h-10 text-center inline-flex items-center justify-center bg-aero rounded-lg shadow-lg">
                             Dompet Digital
                         </button>
                     </div>
-                    <!-- <div>
-                        <button type="button" class="w-64 py-2 h-10 text-center inline-flex items-center justify-center bg-aero rounded-lg shadow-lg">
+                    <div>
+                        <button type="button" id="__btnModalPengirimanKado" class="w-64 py-2 h-10 text-center inline-flex items-center justify-center bg-aero rounded-lg shadow-lg">
                             Pengiriman Kado
                         </button>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="w-72 mx-auto md:w-2/3 md:max-w-xl mt-10">
                     <p>
@@ -584,6 +584,50 @@
     </div>
 
 
+    <div class="w-full fixed bg-black bg-opacity-70 inset-0 z-50 transition duration-300 modal-hide" id="__modalPengirimanKado">
+        <div class="modal-overflow w-full h-screen overflow-y-auto">
+            <div class="bg-white w-11/12 sm:w-1/2 md:w-11/12 lg:w-3/4 lg:max-w-4xl mx-auto rounded-lg text-left my-10">
+                <div class="flex justify-between items-center px-6 py-5">
+                    <span class="text-xl font-bold">
+                        Pengiriman Kado
+                    </span>
+                    <button type="button" class="bg-transparent border-0 outline-none focus:outline-none" id="__btnCloseModalPengirimanKado">
+                        <svg class="fill-current text-red-600" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                            <path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="px-6 pb-8">
+                    <div class="flex flex-col justify-between gap-10">
+                        <div>
+                            <div class="text-center">
+                                <p>
+                                    <b>
+                                        Penerima
+                                    </b>
+                                </p>
+                                <p>
+                                    Iin Suin<br>
+                                    089 625 1111 42
+                                </p>
+                                <br>
+                                <p>
+                                    <b>
+                                        Alamat
+                                    </b>
+                                </p>
+                                <p>
+                                    Desa Pandangan Kulon, RT 03 RW 02, Kec. Kragan, Kab. Rembang, Jateng
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <footer>
         <div class="w-11/12 mx-auto">
             <div class="text-center">
@@ -609,7 +653,7 @@
     <script src="{{ asset('js/scrollbar.js') }}"></script>
     <script src="{{ asset('js/slider.js') }}"></script>
     <script src="{{ asset('js/backsong.js') }}"></script>
-    <script src="{{ asset('js/app.js?_=' . rand()) }}"></script>
+    <script src="{{ asset('js/script.js?_=' . rand()) }}"></script>
     <script src="{{ asset('js/wishes.js?_=' . rand()) }}"></script>
 </body>
 </html>
