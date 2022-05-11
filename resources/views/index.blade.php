@@ -451,8 +451,8 @@
         <div class="w-72 mx-auto md:w-2/3 md:max-w-xl">
             <div class="text-center">
                 <p class="text-art text-lg">
-                    Darimana datangnya cinta<br>
-                    Dari mata turun ke hati<br><br>
+                    Dari mana datangnya cinta<br>
+                    Dari mata turun ke hati<br>
                     Terima kasih atas doa restunya<br>
                     Doa baik Anda sangat berarti
                 </p>
