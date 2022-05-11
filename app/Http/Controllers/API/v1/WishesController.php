@@ -30,7 +30,7 @@ class WishesController extends Controller
         $wishes = Wish::query()
             ->accepted()
             ->latest()
-            ->take(3)
+            ->take(5)
             ->get();
 
         return response()->json([
