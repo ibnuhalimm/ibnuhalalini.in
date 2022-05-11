@@ -20,6 +20,17 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.13/dist/sweetalert2.min.css">
 
     <link rel="stylesheet" href="{{ asset('css/app.css?_=' . rand()) }}">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D6RVWCBVPE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-D6RVWCBVPE');
+    </script>
+
 </head>
 <body class="text-sm lg:text-base pb-32 modal-open">
 
