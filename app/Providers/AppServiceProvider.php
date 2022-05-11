@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Voyager\Actions\SeeInvitationUrl;
 use App\Voyager\Actions\SendWhatsappMessage;
 use Illuminate\Support\ServiceProvider;
 use TCG\Voyager\Facades\Voyager;
@@ -26,5 +27,6 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Voyager::addAction(SendWhatsappMessage::class);
+        Voyager::addAction(SeeInvitationUrl::class);
     }
 }
