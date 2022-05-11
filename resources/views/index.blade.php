@@ -68,7 +68,7 @@
     </section>
 
     <section class="relative w-full pt-20 pb-10 bg-white">
-        <div class="absolute inset-0 top-[30%] w-full h-48 opacity-30 bg-no-repeat bg-cover bg-top md:h-80 xl:top-0 xl:h-screen xl:opacity-20" style="background-image: url('./img/line-art-1.svg');"></div>
+        <div class="absolute inset-0 top-[30%] w-full h-48 opacity-30 bg-no-repeat bg-cover bg-top md:h-80 xl:top-0 xl:h-screen xl:opacity-20" style="background-image: url('{{ asset('img/line-art-1.svg') }}');"></div>
         <div class="w-11/12 mx-auto">
             <div class="flex flex-col items-center justify-center text-center">
                 <h2 class="text-title text-4xl text-deep-koamaru" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
@@ -118,7 +118,7 @@
 
 
     <section class="relative w-full py-20 bg-white xl:pb-48">
-        <div class="absolute top-1/2 left-1/2 w-80 h-80 opacity-40 bg-no-repeat bg-cover bg-center absolute-center xl:w-96 xl:h-96 xl:opacity-30" style="background-image: url('./img/cloud.png');"></div>
+        <div class="absolute top-1/2 left-1/2 w-80 h-80 opacity-40 bg-no-repeat bg-cover bg-center absolute-center xl:w-96 xl:h-96 xl:opacity-30" style="background-image: url('{{ asset('img/cloud.png') }}');"></div>
         <div class="w-11/12 mx-auto relative">
             <div class="flex flex-col items-center justify-center text-center">
                 <h2 class="text-title text-4xl text-deep-koamaru" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
@@ -175,7 +175,7 @@
 
     <section class="relative w-full py-20 bg-water">
         <div class="absolute w-40 -top-[9.80rem] right-0 left-auto bottom-auto opacity-50 lg:w-52 lg:-top-[12.75rem]">
-            <img src="./img/twin-flower.png" alt="Twin Flower" class="rotate-180">
+            <img src="{{ asset('img/twin-flower.png') }}" alt="Twin Flower" class="rotate-180">
         </div>
         <div class="w-11/12 mx-auto relative">
             <div class="flex flex-col items-center justify-center text-center">
@@ -282,7 +282,7 @@
 
     <section class="relative w-full py-20 bg-white">
         <div class="absolute w-40 -top-[9.80rem] right-auto left-0 bottom-auto opacity-50 lg:w-60">
-            <img src="./img/center-flower.png" alt="Center Flower" class="-rotate-12">
+            <img src="{{ asset('img/center-flower.png') }}" alt="Center Flower" class="-rotate-12">
         </div>
         <div class="w-11/12 mx-auto relative">
             <div class="flex flex-col items-center justify-center text-center">
@@ -349,7 +349,7 @@
                         <div class="grid grid-cols-3">
                             <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
                                 <span class="flex flex-col items-center justify-center w-16 h-16 rounded-full bg-aero">
-                                    <img src="./img/prokes/pakai-masker.svg" alt="" class="w-auto h-8">
+                                    <img src="{{ asset('img/prokes/pakai-masker.svg') }}" alt="Pakai Masker" class="w-auto h-8">
                                 </span>
                                 <span class="mt-2 block whitespace-nowrap">
                                     Pakai Masker
@@ -357,7 +357,7 @@
                             </div>
                             <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300">
                                 <span class="flex flex-col items-center justify-center w-16 h-16 rounded-full bg-aero">
-                                    <img src="./img/prokes/cuci-tangan.svg" alt="" class="w-auto h-8">
+                                    <img src="{{ asset('img/prokes/cuci-tangan.svg') }}" alt="Cuci Tangan" class="w-auto h-8">
                                 </span>
                                 <span class="mt-2 block whitespace-nowrap">
                                     Cuci Tangan
@@ -365,7 +365,7 @@
                             </div>
                             <div class="flex flex-col items-center justify-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1600">
                                 <span class="flex flex-col items-center justify-center w-16 h-16 rounded-full bg-aero">
-                                    <img src="./img/prokes/jaga-jarak.svg" alt="" class="w-auto h-8">
+                                    <img src="{{ asset('img/prokes/jaga-jarak.svg') }}" alt="Jaga Jarak" class="w-auto h-8">
                                 </span>
                                 <span class="mt-2 block whitespace-nowrap">
                                     Jaga Jarak
@@ -382,7 +382,7 @@
 
     <section class="relative w-full py-20 bg-water">
         <div class="absolute w-40 -top-[9.80rem] right-0 left-auto bottom-auto opacity-50 lg:w-52 lg:-top-[12.75rem]">
-            <img src="./img/twin-flower.png" alt="Twin Flower" class="rotate-180">
+            <img src="{{ asset('img/twin-flower.png') }}" alt="Twin Flower" class="rotate-180">
         </div>
         <div class="w-11/12 mx-auto relative">
             <div class="flex flex-col items-center justify-center text-center">
@@ -437,7 +437,7 @@
 
     <section class="relative w-full py-20 bg-white">
         <div class="absolute w-40 -top-[9.80rem] right-auto left-0 bottom-auto opacity-50 lg:w-60">
-            <img src="./img/center-flower.png" alt="Center Flower" class="-rotate-12">
+            <img src="{{ asset('img/center-flower.png') }}" alt="Center Flower" class="-rotate-12">
         </div>
         <div class="w-11/12 mx-auto relative">
             <div class="flex flex-col items-center justify-center text-center">
@@ -479,7 +479,7 @@
 
     <section class="relative w-full py-20 bg-water">
         <div class="absolute w-40 -top-[9.80rem] right-0 left-auto bottom-auto opacity-50 lg:w-52 lg:-top-[12.75rem]">
-            <img src="./img/twin-flower.png" alt="Twin Flower" class="rotate-180">
+            <img src="{{ asset('img/twin-flower.png') }}" alt="Twin Flower" class="rotate-180">
         </div>
         <div class="w-72 mx-auto md:w-2/3 md:max-w-xl">
             <div class="text-center">
@@ -521,7 +521,7 @@
                     the wedding of
                 </h1>
             </div>
-            <div class="animate__animated animate__zoomIn animate__duration-2s my-5 w-80 h-80 mx-auto bg-no-repeat bg-cover" style="background-image: url('./img/ring-flower.png');">
+            <div class="animate__animated animate__zoomIn animate__duration-2s my-5 w-80 h-80 mx-auto bg-no-repeat bg-cover" style="background-image: url('{{ asset('img/ring-flower.png') }}');">
                 <div class="w-full h-full flex flex-col items-center justify-center">
                     <h2 class="text-art font-bold text-center">
                         <span class="block text-5xl">
