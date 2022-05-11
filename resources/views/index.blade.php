@@ -91,7 +91,7 @@
                 <div class="absolute inset-0 -top-1 w-full h-8 bg-white"></div>
                 <div class="absolute inset-0 top-auto -bottom-1 w-full h-8 bg-white"></div>
                 <div class="relative w-11/12 mx-auto sm:max-w-sm md:max-w-lg">
-                    <img src="./img/featured/img-1.jpeg" alt="w-full h-auto">
+                    <img src="{{ asset('img/featured/img-1.jpeg') }}" class="available-to-zoom w-full h-auto">
                 </div>
             </div>
         </div>
@@ -301,7 +301,7 @@
                             Denah
                         </h3>
                         <div class="w-full xl:mt-5">
-                            <img src="./img/denah.jpeg" alt="Denah" class="w-full h-auto"
+                            <img src="{{ asset('img/denah.jpeg') }}" alt="Denah" class="available-to-zoom w-full h-auto"
                                 data-lightense-padding="40"
                                 data-lightense-cubic-bezier="cubic-bezier(.2, 0, .1, 1)"
                                 data-lightense-background="rgba(255, 255, 255, .50)"

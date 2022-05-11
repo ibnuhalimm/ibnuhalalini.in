@@ -33,7 +33,7 @@ const closeInvitation = () => {
 }
 
 window.addEventListener('load', function () {
-    Lightense('img');
+    Lightense('img.available-to-zoom');
 }, false);
 
 
