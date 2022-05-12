@@ -39,19 +39,21 @@ class VoyagerUpdateTable extends Command
             return 0;
         }
 
-        $this->info('Updating...');
-        $this->info('...');
+        $this->info('Processing...');
 
         $tables = $this->getTables();
         $prefixClassName = $this->getPrefixClassName();
 
         foreach ($tables as $table) {
+            $this->info('- Updating table: '.$table);
+
             Artisan::call('db:seed', [
                 '--class' => Iseed::generateClassName($table, $prefixClassName),
                 '--force' => true
             ]);
         }
 
+        $this->info('');
         $this->info('Done');
 
         return 0;
