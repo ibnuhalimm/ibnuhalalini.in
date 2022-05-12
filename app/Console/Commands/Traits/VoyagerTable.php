@@ -25,8 +25,7 @@ trait VoyagerTable
             (new Menu())->getTable(),
             (new MenuItem())->getTable(),
             (new Permission())->getTable(),
-            // (new Role())->getTable(),
-            // 'permission_role'
+            'permission_role'
         ];
     }
 }
