@@ -47,7 +47,8 @@ class VoyagerUpdateTable extends Command
 
         foreach ($tables as $table) {
             Artisan::call('db:seed', [
-                '--class' => Iseed::generateClassName($table, $prefixClassName)
+                '--class' => Iseed::generateClassName($table, $prefixClassName),
+                '--force' => true
             ]);
         }
 
