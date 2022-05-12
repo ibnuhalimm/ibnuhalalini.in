@@ -923,7 +923,7 @@ class LatestDataRowsTableSeeder extends Seeder
                 'type' => 'text',
                 'display_name' => 'Code',
                 'required' => 0,
-                'browse' => 1,
+                'browse' => 0,
                 'read' => 1,
                 'edit' => 0,
                 'add' => 0,
