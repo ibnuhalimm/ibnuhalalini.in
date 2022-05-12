@@ -31,12 +31,14 @@ class VoyagerSeedTable extends Command
      */
     public function handle()
     {
-        $this->info('Generating...');
-        $this->info('...');
+        $this->info('Start...');
+        $this->info('');
 
         $tables = $this->getTables();
 
         foreach ($tables as $table) {
+            $this->info('Generating ' . $table . ' table');
+
             Artisan::call('iseed', [
                 'tables' => $table, // options
                 '--force' => true,
@@ -44,6 +46,7 @@ class VoyagerSeedTable extends Command
             ]);
         }
 
+        $this->info('');
         $this->info('Done!');
 
         return 0;
