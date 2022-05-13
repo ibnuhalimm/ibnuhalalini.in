@@ -328,7 +328,7 @@
                             </div>
                         </div>
                         <div class="mt-4">
-                            <a href="https://s.id/iinibnumaps" target="_blank" class="w-64 py-2 h-10 text-center inline-flex items-center justify-center bg-aero rounded-lg shadow-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                            <a href="https://s.id/iinibnumaps" target="_blank" class="w-64 py-2 h-10 text-center inline-flex items-center justify-center bg-aero rounded-lg shadow-lg">
                                 Lihat Peta
                             </a>
                         </div>
@@ -337,12 +337,15 @@
                         <h3 class="text-lg font-bold text-deep-koamaru" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
                             Denah
                         </h3>
-                        <div class="w-full xl:mt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+                        <div class="w-full xl:mt-5">
                             <img src="{{ asset('img/denah.jpeg') }}" alt="Denah" class="available-to-zoom w-full h-auto"
                                 data-lightense-padding="40"
                                 data-lightense-cubic-bezier="cubic-bezier(.2, 0, .1, 1)"
                                 data-lightense-background="rgba(255, 255, 255, .50)"
-                                data-lightense-z-index="2147483647">
+                                data-lightense-z-index="2147483647"
+                                data-aos="fade-up"
+                                data-aos-duration="1000"
+                                data-aos-delay="1000">
                             <div class="mt-2 text-xs text-center">
                                 Tap or click to zoom
                             </div>
